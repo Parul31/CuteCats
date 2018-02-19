@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cat-desc {
+    text-align: justify;
+    background-color: aliceblue;
+    color: black;
+    padding: 40px;
+}
+.bg-img1 {
+    background-image: url('../img/cat-cover1.jpg');
+    min-height: 100%;
+}
+.bg-img2 {
+    background-image: url('../img/cat-cover3.jpg');
+    min-height: 100%;
+}
+.bg-img3 {
+    background-image: url('../img/cat-cover5.jpg');
+    min-height: 100%;
+}
+.bg-img1, .bg-img2, .bg-img3 {
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
